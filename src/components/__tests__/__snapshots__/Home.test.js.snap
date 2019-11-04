@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home> renders correctly 1`] = `
+<div>
+  <Search
+    order="order"
+  />
+  <Loading
+    loadingText="Loading your results..."
+  >
+    <ForwardRef(styled.div)>
+      <Result
+        result={
+          Object {
+            "id": 1,
+          }
+        }
+      />
+      <Result
+        result={
+          Object {
+            "id": 2,
+          }
+        }
+      />
+      <Result
+        result={
+          Object {
+            "id": 3,
+          }
+        }
+      />
+    </ForwardRef(styled.div)>
+  </Loading>
+</div>
+`;

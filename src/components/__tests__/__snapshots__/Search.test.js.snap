@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search> renders correctly 1`] = `
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <input
+        onChange={[Function]}
+        placeholder="Begin typing to search..."
+        type="text"
+      />
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
+    <select
+      onChange={[Function]}
+      value="order"
+    >
+      <option>
+        relevance
+      </option>
+      <option>
+        date
+      </option>
+      <option>
+        rating
+      </option>
+    </select>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
+`;

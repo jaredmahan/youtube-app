@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeContainer> should render correctly 1`] = `
+<Home
+  actions={Object {}}
+  loading={false}
+  order="order"
+  orderChange={[Function]}
+  query="query"
+  queryChange={[Function]}
+  results={
+    Array [
+      Object {
+        "id": 1,
+      },
+      Object {
+        "id": 2,
+      },
+      Object {
+        "id": 3,
+      },
+    ]
+  }
+/>
+`;

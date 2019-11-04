@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Result> renders correctly 1`] = `
+<ForwardRef(styled.div)>
+  <div>
+    <a
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "title",
+        }
+      }
+      href="https://www.youtube.com/watch?v=videoId"
+      rel="noopener noreferrer"
+      target="_blank"
+    />
+  </div>
+  <div>
+    description
+  </div>
+  <img
+    alt="Video Thumbnail"
+    height={0}
+    src="fakeUrl"
+    width={0}
+  />
+</ForwardRef(styled.div)>
+`;
